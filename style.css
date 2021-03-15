@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 /*zona media query Bonus per tablet responsive*/
-@media screen and (min-width: 421px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
   .row {
     max-width: 760px;
     width: 100%;
@@ -106,13 +106,7 @@ img {
   }
 }
 /*zona media query smartphone*/
-@media screen and (max-width: 420px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+@media screen and (max-width: 767px) {
   .row {
     max-width: 410px;
     width: 100%;
